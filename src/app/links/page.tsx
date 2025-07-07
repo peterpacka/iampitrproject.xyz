@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "all my links in one page contact me",
   openGraph: {
     title: "pitrs links",
-    description: "Every links is here. Enjoy yourself",
+    description: "Every link is here. Enjoy yourself",
   },
 };
 
