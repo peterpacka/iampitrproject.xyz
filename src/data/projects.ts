@@ -6,7 +6,6 @@ export type ProjectType = {
   technologies: string[];
   githubUrl: string | null;
   liveUrl: string | null;
-  image: string;
   status: "live" | "in-progress" | "archived";
 };
 
@@ -17,9 +16,8 @@ export const projects: ProjectType[] = [
     name: "iampitrproject.xyz",
     description: "My personal website.",
     technologies: ["Next.js", "Tailwind CSS", "Motion"],
-    githubUrl: "https://github.com/peterpacka/iampitrproject",
-    liveUrl: "http://localhost:3000",
-    image: "/project-screenshots/portfolio.png",
+    githubUrl: "https://github.com/peterpacka/iampitrproject.xyz",
+    liveUrl: "https://www.iampitrproject.xyz/",
     status: "live",
   },
   {
@@ -30,7 +28,6 @@ export const projects: ProjectType[] = [
     technologies: ["Next.js", "Tailwind CSS", "Motion", "Lucide"],
     githubUrl: null,
     liveUrl: "https://talk.xhyrom.dev",
-    image: "/project-screenshots/talk-xhyrom.png",
     status: "live",
   },
 ];

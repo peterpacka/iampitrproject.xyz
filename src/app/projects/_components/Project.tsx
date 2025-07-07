@@ -1,10 +1,6 @@
 "use client";
 import { ProjectType } from "@/data/projects";
-import {
-  Github,
-  ExternalLink,
-  CornerLeftUp,
-} from "lucide-react";
+import { Github, ExternalLink, CornerLeftUp } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
