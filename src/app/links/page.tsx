@@ -20,7 +20,9 @@ const page = () => {
         <Title />
         <ul className="flex gap-x-6 gap-y-4 items-center justify-center flex-wrap">
           {links.map((link) => (
-            <Link key={link.name} {...link} />
+            <li key={link.name}>
+              <Link {...link} />
+            </li>
           ))}
         </ul>
       </section>

@@ -22,7 +22,9 @@ const page = () => {
         <Title />
         <ul className="flex flex-wrap items-center justify-center gap-10">
           {projects.map((project) => (
-            <Project key={project.id} {...project} />
+            <li key={project.id}>
+              <Project {...project} />
+            </li>
           ))}
         </ul>
       </section>
