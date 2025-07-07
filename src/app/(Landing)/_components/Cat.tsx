@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 const Cat = () => {
   return (
     <motion.img
+      alt="picture of cat"
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{
         opacity: 1,

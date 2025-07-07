@@ -11,6 +11,7 @@ const Title = () => {
     >
       My projects{" "}
       <motion.img
+        alt="cat picture"
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.2, delay: 0.2 }}

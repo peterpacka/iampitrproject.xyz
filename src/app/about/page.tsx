@@ -31,6 +31,7 @@ const page = () => {
             I didn’t have any profile picture but I saw a TikTok video with this
             <span className="font-bold"> cat </span>
             <img
+              alt="cat picture"
               draggable={false}
               className="inline h-8"
               src="/kitten-dance.gif"
@@ -48,6 +49,7 @@ const page = () => {
             sirrr. I got some projects online, some not, some I nuked cuz they
             were dumb. But yeah, that’s my liiiifeeee…{" "}
             <img
+              alt="cat picture"
               draggable={false}
               src="/kitten-is-rainbow.gif"
               className="inline h-8"

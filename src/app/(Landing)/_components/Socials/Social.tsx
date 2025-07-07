@@ -19,6 +19,7 @@ const Social = (social: socialProp) => {
   return (
     <Link target="_blank" href={social.href} className="group relative">
       <img
+        alt="social platfrom icon"
         onMouseEnter={() => setShowLabel(true)}
         onMouseLeave={() => setShowLabel(false)}
         className="size-8 group-hover:scale-[1.06] transition-all"

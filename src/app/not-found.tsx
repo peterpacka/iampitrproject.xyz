@@ -13,7 +13,7 @@ const NotFound = () => {
       >
         404 Not Found?{" "}
       </motion.h1>
-      <img draggable={false} src="/kitten-wet.gif" />
+      <img alt="cat picture" draggable={false} src="/kitten-wet.gif" />
     </main>
   );
 };

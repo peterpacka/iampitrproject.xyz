@@ -42,7 +42,11 @@ const Header = ({ avatar_url }: { avatar_url: string }) => {
               if (isMobile && showMobileMenu) setShowMobileMenu(false);
             }}
           >
-            <img className="h-6 md:h-8 rounded-full" src={avatar_url} />
+            <img
+              alt="profile picture on github"
+              className="h-6 md:h-8 rounded-full"
+              src={avatar_url}
+            />
             iampitrproject.xyz
           </Link>
           <button

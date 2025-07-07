@@ -17,6 +17,7 @@ const Title = () => {
         className="inline h-10"
         draggable={false}
         src="/kitten-whaaaaaaaaaaaaaaaaaaaaaatttttt.gif"
+        alt="cat picture"
       />
     </motion.h1>
   );
