@@ -1,10 +1,8 @@
 "use client";
 import { ProjectType } from "@/data/projects";
 import {
-  Globe,
   Github,
   ExternalLink,
-  ArrowLeft,
   CornerLeftUp,
 } from "lucide-react";
 import Link from "next/link";
