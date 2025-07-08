@@ -36,7 +36,7 @@ export const projects: ProjectType[] = [
     name: "quotes.iampitrproject.xyz",
     description: "Idk i am bored",
     technologies: ["Vite", "React", "Motion", "Taiwind CSS"],
-    githubUrl: null,
+    githubUrl: "https://github.com/peterpacka/quotes.iampitrproject.xyz",
     liveUrl: "https://quotes.iampitrproject.xyz",
     status: "live",
   },
