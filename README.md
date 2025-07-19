@@ -6,7 +6,7 @@ There can definitely be improvements in code and practices — I’m still growi
 ## 🚀 About
 
 - Uses **Next.js** and **React**  
-- Uses **Framer Motion** for animations  
+- Uses **Motion** for animations  
 - Uses **Lucide Icons** for icons  
 - Styled with **Tailwind CSS**  
 - No backend functionality — not needed for this project  
