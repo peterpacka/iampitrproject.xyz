@@ -7,6 +7,7 @@ const LinkExport = (link: LinkType) => {
   return (
     <Link
       draggable={false}
+      target="_blank"
       className="flex items-center gap-1 font-bold bg-[#060d10] rounded-xl p-2 hover:scale-[1.02] hover:-translate-y-1 hover:bg-blue-950 transition-all"
       href={link.url}
     >
